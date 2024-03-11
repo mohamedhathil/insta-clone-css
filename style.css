@@ -1,0 +1,207 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media(min-width:990px){
+    .container{
+        gap: 40px;
+        width: 990px;
+        margin:60px auto;
+        display: flex;
+    }
+    .feed{
+        width: 560px;
+        border: 1px solid lightgray;
+        border-radius: 14px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .feed-img{
+        width: 100%;
+        border-radius: 14px;
+    }
+    .bi{
+        font-size: 24px;
+    }
+    .reactions{
+        display: flex;
+        justify-content: space-between;
+    }
+    .reactions-left{
+        display: flex;
+        gap: 16px;
+    }
+    .profile{
+        display: flex;
+        margin-bottom: 24px;
+        gap: 8px;
+        align-items: center;
+    }
+    .avatar{
+        height: 50px;
+        border-radius: 50%;
+    }
+    .username{
+        font-size: 14px;
+        color: rgb(103, 103, 103);
+    }
+    .story-container{
+        display: flex;
+        gap: 14px;
+        width: 990px;
+        margin:50px auto;
+    }
+    .story-img{
+        height: 80px;
+        border-radius: 50%;
+    }
+    .story{
+        text-align: center;
+    }
+    .name{
+        font-size: 14px;
+    }
+    
+    
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        width: 990px;
+        margin: auto;
+        padding: 10px 0;
+        align-items: center;
+    }
+    .logo{
+        height: 52px;
+    
+    }
+    .btn{
+        background-color: white;
+        padding: 16px 30px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    .sidebar-title{
+        margin-top: 0;
+    }
+    .app{
+        display: flex;
+        gap: 10px;
+    }
+    .link{
+        height: 42px;
+    }
+}
+
+.responsive-video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+    height: 0;
+  }
+  .responsive-video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+/* small screen */
+@media(max-width: 989px){
+    .container{
+    margin:60px auto;
+    
+}
+.feed{
+   
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.feed-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.sidebar{
+    text-align: center;
+}
+.bi{
+    font-size: 24px;
+}
+.reactions{
+    display: flex;
+    justify-content: space-between;
+}
+.reactions-left{
+    display: flex;
+    gap: 16px;
+}
+.profile{
+    display: flex;
+    margin-bottom: 24px;
+    gap: 8px;
+    align-items: center;
+}
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+}
+.username{
+    font-size: 14px;
+    color: rgb(103, 103, 103);
+}
+.story-container{
+    display: flex;
+    gap: 14px;
+    width: 100%;
+    overflow: auto;
+    margin:50px auto;
+}
+.story-container::-webkit-scrollbar{
+    display: none;
+}
+.story-img{
+    height: 80px;
+    border-radius: 50%;
+}
+.story{
+    text-align: center;
+}
+.name{
+    font-size: 14px;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+}
+.logo{
+    height: 52px;
+
+}
+.btn{
+    background-color: white;
+    padding: 14px 30px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.sidebar-title{
+    margin-top: 0;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.link{
+    height: 42px;
+}
+
+}
